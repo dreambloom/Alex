@@ -1,0 +1,54 @@
+body{
+	background-color: #767a86;
+}
+article{
+	background-color: white;
+	margin: 20px;
+}
+table{
+	width: 100%;
+}
+th{
+	background-color:#2e2d31;
+}
+form{
+	text-align: center;
+}
+footer{
+	height: 80px;
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 50px;
+	background-color: #433e2e;
+}
+.navStyle{
+	background-color:#161719;
+	width: 100%;
+	height:100px;
+	text-align: center;
+}
+.logo{
+	width: 280;
+	height: 100;
+	float:left;
+}
+.lione{
+	padding-top: 40px;
+	float:left;
+}
+.ulSecond{
+	list-style-type: none;
+}
+
+.go{
+	width: 1400px;
+	height: 50px;
+	background-color:blue;
+	border: none;
+}
+.decoration{
+	text-decoration: none;
+}
+.justfloat{
+	float: right;
+}
