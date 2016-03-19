@@ -2,15 +2,24 @@
     margin: 0px;
     padding:0px;
 }
-
+body{
+    display: block;
+}
 /*===========内容容器样式==============*/
 .container{
     margin: 20px;
     padding: 20px;
     background-color: #eeeeee;
     border: 1px solid #999999;
-    height: 540px;
     position: relative;
+}
+.container:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 /*============左栏样式==============*/
@@ -20,29 +29,28 @@
     height: 78px;
     background-color: white;
     border: 1px solid #999999;
-    position: absolute;
+    position: relative;
+    float: left;
 }
 .left img{
     display: block;
     width: 80px;
     height: 80px;
     float: left;
+
 }
 .left cite{
     display: inline-block;
     clear: both;
     margin-left:20px ;
 }
-
 /*============中间栏样式==============*/
 .middle{
-    float: left;
     margin-left: 220px;
-    margin-right: 140px;
+    margin-right: 160px;
     border: 1px solid #999999;
     background-color: white;
     position: relative;
-    max-height: 560px;
 
     /*文字样式*/
     font-size: 21px;
@@ -55,11 +63,12 @@
 
     width: 118px;
     height: 520px;
-    right: 0px;
+
     margin-right: 20px;
     background-color: white;
     border: 1px solid #999999;
-    position: absolute;
+    float: right;
+    position: relative;
 }
 .right img{
     display: block;
